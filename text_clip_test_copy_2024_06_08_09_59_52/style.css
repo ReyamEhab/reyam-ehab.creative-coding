@@ -1,0 +1,15 @@
+/*the css file for centers the canvas in the middle of the screen and gives it a nice border.*/
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f0f0f0;  /* Light grey background */
+}
+
+canvas {
+  display: block;
+  border: 25px solid #335;  /* Border around the canvas */
+}
